@@ -1,0 +1,214 @@
+CRITICAL - 2026-07-01 07:09:58 --> ErrorException: Constant SERVER_PORT already defined, this will be an error in PHP 9
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Commands\Server\Serve.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Commands\Server\Serve.php(16): define()
+ 3 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\John Doe\\Documents\\symfony-starter\\system\\Commands\\Server\\Serve.php')
+ 4 VENDORPATH\composer\ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+ 5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 6 SYSTEMPATH\Autoloader\FileLocator.php(306): class_exists()
+ 7 SYSTEMPATH\CLI\Commands.php(111): CodeIgniter\Autoloader\FileLocator->findQualifiedNameFromPath()
+ 8 SYSTEMPATH\CLI\Commands.php(51): CodeIgniter\CLI\Commands->discoverCommands()
+ 9 SYSTEMPATH\Config\Services.php(178): CodeIgniter\CLI\Commands->__construct()
+10 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::commands()
+11 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH\Config\Services.php(175): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::commands()
+14 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH\Common.php(1082): CodeIgniter\Config\BaseService::get()
+16 SYSTEMPATH\CLI\Console.php(47): service()
+17 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+18 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+19 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2026-07-01 07:13:30 --> ErrorException: Constant s_port already defined, this will be an error in PHP 9
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Commands\Server\Serve.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Commands\Server\Serve.php(16): define()
+ 3 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\John Doe\\Documents\\symfony-starter\\system\\Commands\\Server\\Serve.php')
+ 4 VENDORPATH\composer\ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+ 5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 6 SYSTEMPATH\Autoloader\FileLocator.php(306): class_exists()
+ 7 SYSTEMPATH\CLI\Commands.php(111): CodeIgniter\Autoloader\FileLocator->findQualifiedNameFromPath()
+ 8 SYSTEMPATH\CLI\Commands.php(51): CodeIgniter\CLI\Commands->discoverCommands()
+ 9 SYSTEMPATH\Config\Services.php(178): CodeIgniter\CLI\Commands->__construct()
+10 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::commands()
+11 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH\Config\Services.php(175): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::commands()
+14 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH\Common.php(1082): CodeIgniter\Config\BaseService::get()
+16 SYSTEMPATH\CLI\Console.php(47): service()
+17 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+18 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+19 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2026-07-01 07:14:38 --> ErrorException: Constant s_port already defined, this will be an error in PHP 9
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Commands\Server\Serve.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Commands\Server\Serve.php(16): define()
+ 3 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\John Doe\\Documents\\symfony-starter\\system\\Commands\\Server\\Serve.php')
+ 4 VENDORPATH\composer\ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+ 5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 6 SYSTEMPATH\Autoloader\FileLocator.php(306): class_exists()
+ 7 SYSTEMPATH\CLI\Commands.php(111): CodeIgniter\Autoloader\FileLocator->findQualifiedNameFromPath()
+ 8 SYSTEMPATH\CLI\Commands.php(51): CodeIgniter\CLI\Commands->discoverCommands()
+ 9 SYSTEMPATH\Config\Services.php(178): CodeIgniter\CLI\Commands->__construct()
+10 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::commands()
+11 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH\Config\Services.php(175): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::commands()
+14 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH\Common.php(1082): CodeIgniter\Config\BaseService::get()
+16 SYSTEMPATH\CLI\Console.php(47): service()
+17 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+18 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+19 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2026-07-01 08:21:01 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:02 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:03 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:03 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:16 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:17 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:17 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:17 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:17 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\John Doe\\Documents\\symfony-starter\\public\\index.php')
+CRITICAL - 2026-07-01 08:21:20 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 4
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(4): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2026-07-01 08:23:55 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, Closure given, called in C:\Users\John Doe\Documents\symfony-starter\app\Config\Routes.php on line 5
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(5): CodeIgniter\Router\RouteCollection->get()
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\Users\\John Doe\\Documents\\symfony-starter\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2026-07-01 09:00:37 --> ErrorException: include(C:\Users\John Doe\Documents\symfony-starter\app\Config\Events.php): Failed to open stream: No such file or directory
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Events\Events.php on line 95.
+ 1 SYSTEMPATH\Events\Events.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Events\Events.php(95): include()
+ 3 SYSTEMPATH\Events\Events.php(144): CodeIgniter\Events\Events::initialize()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Events\Events::trigger()
+ 5 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+ 6 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2026-07-01 09:01:29 --> ErrorException: include(C:\Users\John Doe\Documents\symfony-starter\app\Config\Events.php): Failed to open stream: No such file or directory
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Events\Events.php on line 95.
+ 1 SYSTEMPATH\Events\Events.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Events\Events.php(95): include()
+ 3 SYSTEMPATH\Events\Events.php(144): CodeIgniter\Events\Events::initialize()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Events\Events::trigger()
+ 5 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run()
+ 6 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand()
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark()
