@@ -1,0 +1,14 @@
+version: "1.0"
+services:
+  ci-test:
+    container_name: ci-test
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ci-test
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: php spark serve --host=0.0.0.0 --port=8080
