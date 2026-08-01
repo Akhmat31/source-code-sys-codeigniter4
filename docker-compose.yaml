@@ -1,4 +1,3 @@
-version: "1.0"
 services:
   ci-test:
     container_name: ci-test
